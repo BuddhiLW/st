@@ -5,14 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Ubuntu Mono:pixelsize=24:antialias=true:autohint=true";
+static char *font = "Ubuntu Mono:pixelsize=35:antialias=true:autohint=true";
 static char *font2[] = { 
-  "JoyPixels:pixelsize=25",
-  "Noto Serif Ethiopic:pixelsize=20:antialias=true:autohint=true", 
-  "Noto Sans Javanese:pixelsize=20:antialias=true:autohint=true"
-  /*"Unifont:pixelsize=20:antialias=true:autohint=true",*/
-  /*"Noto Color Emoji:pixelsize=20:antialias=true:autohint=true",*/
-  /*"DejaVu Sans:pixelsize=20:antialias=true:autohint=true" */
+  "JoyPixels:pixelsize=20",
+  "Noto Serif Ethiopic:pixelsize=30:antialias=true:autohint=true", 
+  "Noto Sans Javanese:pixelsize=30:antialias=true:autohint=true"
 };
 static int borderpx = 2;
 
